@@ -1,0 +1,11 @@
+message: Hey! I'm trying from the DropWizard Twitter Bot!
+
+logging:
+  level: INFO
+  loggers:
+    com.geetanjali: DEBUG
+
+server:
+  type: simple
+  rootPath: /api/
+  applicationContextPath: /
